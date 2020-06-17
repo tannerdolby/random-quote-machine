@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --google-font-roboto-condensed: "Roboto Condensed", sans-serif;
+    --google-font-oswald: "Oswald", sans-serif;
+    --google-font-raleway: "Raleway", sans-serif;
+    --google-font-roboto-mono: "Roboto Mono", sans-serif;
+    --google-font-roboto: "Roboto", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #fff;
+    color: #111;
+    padding: 25px;
+    width: 600px;
+}
+
+.container h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: var(--google-font-roboto-mono);
+    font-size: 1.4rem;
+}
+
+.container p {
+    text-align: center;
+    font-family: var(--google-font-roboto);
+    font-size: 1.1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex button {
+    padding: 5px 10px 5px 10px;
+}
+
+.flex button:hover {
+    cursor: pointer;
+}
+
+.flex a {
+    padding: 5px 10px 5px 10px;
+    background: #1b95e0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.flex a:hover {
+    cursor: pointer;
+    background: #1b95d0;
+    background: rgb(205, 97, 85)
+}
+
+.flex a i {
+    padding-right: 5px;
+}
+
+.copyright {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+
+    .container h3 {
+        font-size: 1.2rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
