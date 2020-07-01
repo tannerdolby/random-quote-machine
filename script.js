@@ -16,8 +16,7 @@ const animateColors = [
     "#DC7633",
     "#333",
     "#3498DB",
-    "#D35400",
-
+    "#D35400",  
 ]
 
 // Quotes - credit for quotes goes to @freeCodeCamp 
